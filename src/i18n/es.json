@@ -59,6 +59,14 @@
       "hexagonal_template": {
         "title": "Plantilla Hexagonal - API .NET 8 Profesional",
         "description": "Plantilla empresarial robusta para APIs REST con arquitectura hexagonal, seguridad de nivel empresarial, testing automatizado (58+ pruebas), internacionalización y sistema de notificaciones por email profesional."
+      },
+      "incident_management_frontend": {
+        "title": "Sistema de Gestión de Incidentes - Frontend Angular",
+        "description": "Aplicación frontend moderna en Angular para gestión de incidentes con interfaz Material Design, dashboards interactivos, operaciones CRUD, comentarios en tiempo real, seguimiento de asignaciones y visualización detallada en timeline de todos los cambios."
+      },
+      "incident_management_backend": {
+        "title": "Sistema de Gestión de Incidentes - Backend .NET",
+        "description": "API REST robusta construida con .NET Core para gestión de incidentes, con operaciones CRUD completas, servicios avanzados de filtrado y listado, gestión de comentarios, seguimiento de asignaciones y arquitectura empresarial con documentación comprehensiva."
       }
     }
   },

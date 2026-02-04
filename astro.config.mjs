@@ -2,7 +2,7 @@
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://LaShavi.github.io',
+  site: 'https://javisalgado93.github.io',
   base: '/JavierSalgadoDevPortfolio',
   vite: {
     plugins: [tailwindcss()]

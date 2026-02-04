@@ -59,6 +59,14 @@
       "hexagonal_template": {
         "title": "Hexagonal Template - Professional .NET 8 API",
         "description": "Robust enterprise template for REST APIs with hexagonal architecture, enterprise-level security, automated testing (58+ tests), internationalization and professional email notification system."
+      },
+      "incident_management_frontend": {
+        "title": "Incident Management System - Angular Frontend",
+        "description": "Modern Angular frontend application for incident management with Material Design UI, interactive dashboards, CRUD operations, real-time comments, assignment tracking, and comprehensive timeline visualization of all changes."
+      },
+      "incident_management_backend": {
+        "title": "Incident Management System - .NET Backend",
+        "description": "Robust REST API built with .NET Core for incident management, featuring complete CRUD operations, advanced filtering and listing services, comment management, assignment tracking, and enterprise-level architecture with comprehensive documentation."
       }
     }
   },

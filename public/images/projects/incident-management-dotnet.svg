@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#512da8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a237e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00bcd4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4dd0e1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="400" height="300" fill="url(#bgGradient2)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="80" cy="40" r="35" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="350" cy="260" r="50" fill="rgba(255,255,255,0.08)"/>
+  
+  <!-- .NET logo inspired (interlocking circles/squares) -->
+  <g transform="translate(200, 80)">
+    <!-- Square 1 -->
+    <rect x="-30" y="-30" width="25" height="25" fill="none" stroke="url(#accentGradient2)" stroke-width="2.5" rx="3"/>
+    <!-- Square 2 -->
+    <rect x="5" y="-30" width="25" height="25" fill="none" stroke="url(#accentGradient2)" stroke-width="2.5" rx="3"/>
+    <!-- Square 3 -->
+    <rect x="-30" y="5" width="25" height="25" fill="none" stroke="url(#accentGradient2)" stroke-width="2.5" rx="3"/>
+    <!-- Square 4 -->
+    <rect x="5" y="5" width="25" height="25" fill="url(#accentGradient2)" rx="3"/>
+  </g>
+  
+  <!-- API/Server representation -->
+  <g transform="translate(50, 170)">
+    <!-- Server box -->
+    <rect x="0" y="0" width="70" height="80" rx="4" fill="rgba(255,255,255,0.08)" stroke="white" stroke-width="1.5"/>
+    <!-- Server rack items -->
+    <rect x="5" y="8" width="60" height="12" fill="rgba(0,188,212,0.3)" stroke="white" stroke-width="1" rx="2"/>
+    <circle cx="65" cy="14" r="2" fill="#00bcd4"/>
+    
+    <rect x="5" y="25" width="60" height="12" fill="rgba(0,188,212,0.3)" stroke="white" stroke-width="1" rx="2"/>
+    <circle cx="65" cy="31" r="2" fill="#00bcd4"/>
+    
+    <rect x="5" y="42" width="60" height="12" fill="rgba(0,188,212,0.3)" stroke="white" stroke-width="1" rx="2"/>
+    <circle cx="65" cy="48" r="2" fill="#00bcd4"/>
+    
+    <rect x="5" y="59" width="60" height="12" fill="rgba(0,188,212,0.3)" stroke="white" stroke-width="1" rx="2"/>
+    <circle cx="65" cy="65" r="2" fill="#00bcd4"/>
+  </g>
+  
+  <!-- Database representation -->
+  <g transform="translate(165, 170)">
+    <!-- Database cylinder -->
+    <ellipse cx="35" cy="8" rx="32" ry="10" fill="rgba(0,188,212,0.4)" stroke="white" stroke-width="1.5"/>
+    <line x1="3" y1="8" x2="3" y2="60" stroke="white" stroke-width="1.5"/>
+    <line x1="67" y1="8" x2="67" y2="60" stroke="white" stroke-width="1.5"/>
+    <ellipse cx="35" cy="60" rx="32" ry="10" fill="url(#accentGradient2)"/>
+    <!-- Data inside -->
+    <line x1="15" y1="25" x2="55" y2="25" stroke="white" stroke-width="1" opacity="0.6"/>
+    <line x1="15" y1="35" x2="55" y2="35" stroke="white" stroke-width="1" opacity="0.6"/>
+    <line x1="15" y1="45" x2="55" y2="45" stroke="white" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- API connections -->
+  <g transform="translate(280, 170)">
+    <!-- API endpoints -->
+    <circle cx="15" cy="15" r="8" fill="none" stroke="white" stroke-width="1.5"/>
+    <text x="15" y="18" font-size="10" fill="white" text-anchor="middle" font-weight="bold">G</text>
+    
+    <circle cx="50" cy="15" r="8" fill="none" stroke="white" stroke-width="1.5"/>
+    <text x="50" y="18" font-size="10" fill="white" text-anchor="middle" font-weight="bold">P</text>
+    
+    <circle cx="15" cy="55" r="8" fill="url(#accentGradient2)"/>
+    <text x="15" y="58" font-size="10" fill="white" text-anchor="middle" font-weight="bold">D</text>
+    
+    <circle cx="50" cy="55" r="8" fill="url(#accentGradient2)"/>
+    <text x="50" y="58" font-size="10" fill="white" text-anchor="middle" font-weight="bold">U</text>
+    
+    <!-- Connection lines -->
+    <line x1="20" y1="20" x2="45" y2="50" stroke="rgba(77,208,225,0.5)" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="45" y1="20" x2="20" y2="50" stroke="rgba(77,208,225,0.5)" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+</svg>
